@@ -140,14 +140,22 @@
         },
 
         addRightArrow: function () {
-
+            var rArr = this.createArrowTemplate('right');
         },
 
         addLeftArrow: function () {
+            var lArr = this.createArrowTemplate('left');
+        },
+
+        createArrowTemplate: function (type) {
 
         },
 
-        createArrowTemplate: function () {
+        removeRightArrow: function () {
+
+        },
+
+        removeLeftArrow: function () {
 
         }
     };
