@@ -38,9 +38,7 @@
         },
 
         isTabStripActivated: function () {
-            if (this.$el.data().role === 'tabstrip') {
-                return true;
-            }
+            if (this.$el.data().role == 'tabstrip') return true;
             return false;
         },
 
@@ -146,6 +144,10 @@
         },
 
         addLeftArrow: function () {
+
+        },
+
+        createArrowTemplate: function () {
 
         }
     };
